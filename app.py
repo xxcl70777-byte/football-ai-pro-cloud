@@ -1,6 +1,18 @@
 import streamlit as st
 import pandas as pd
 import requests
+
+# 尝试安全导入 BeautifulSoup，如果没安装，给用户提示而不是直接报错崩掉
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    st.error("系统正在安装必要依赖，请等待 1-2 分钟并刷新页面...")
+    BeautifulSoup = None
+
+# ... 后续代码 ...
+import streamlit as st
+import pandas as pd
+import requests
 from bs4 import BeautifulSoup
 
 st.set_page_config(page_title="Pro Football AI", layout="wide")
