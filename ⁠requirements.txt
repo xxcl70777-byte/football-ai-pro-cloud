@@ -7,3 +7,7 @@ beautifulsoup4
 matplotlib
 openpyxl
 psycopg2-binary
+streamlit
+pandas
+requests
+beautifulsoup4
