@@ -3,9 +3,8 @@ pandas
 numpy
 scikit-learn
 requests
-playwright
 beautifulsoup4
-plotly
 matplotlib
 openpyxl
 psycopg2-binary
+
